@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="register-area">
+        <h1>Cash Register</h1>
+        <div id="change-due"></div>
+        <div id="cash-register">
+          <h3 class="input-type">Enter cash from customer:</h3>
+          <input type="number" class="input-type" />
+        </div>
+        <div id="button-container">
+          <button>Purchase</button>
+        </div>
+
+        <div id="total-due-container">
+          <div id="total-due">Total: $3.26</div>
+        </div>
+        <div id="cashier-handle"></div>
+        <div id="machine-register-container">
+          <div id="price-container">
+            <div id="register-square">
+              <h3>Change in drawer:</h3>
+              <p id="pennies">Pennies: $0.97</p>
+              <p id="nickels">Nickels: $2.05</p>
+              <p id="dimes">Dimes: $2.9</p>
+              <p id="quarters">Quarters: $3.75</p>
+              <p id="ones">Ones: $89</p>
+              <p id="fives">Fives: $55</p>
+              <p id="tens">Tens: $20</p>
+              <p id="twenties">Twenties: $60</p>
+              <p id="hundreds">Hundreds: $100</p>
+            </div>
+          </div>
+        </div>
+        <div id="drawer-register"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
